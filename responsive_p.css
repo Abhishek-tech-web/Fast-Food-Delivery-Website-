@@ -1,0 +1,125 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/**menu**/
+@media only screen and (max-width:426px)
+{
+    #mb{
+        margin-bottom: 30px !important;
+    }
+
+}
+
+
+
+
+/**review**/
+
+@media only screen and (max-width:321px)
+{
+    .pic{
+        margin-left: -7px !important;
+    }
+}
+
+@media only screen and (min-width:321px) and (max-width:376px)
+{
+    .pic{
+        margin-left: -50px !important;
+    }
+  
+}
+
+@media only screen and (min-width:375px) and (max-width:426px)
+{
+    .pic{
+        margin-left: 45px !important;
+    }
+}
+
+@media only screen and (min-width:426px) and (max-width:768px)
+{
+    .pic{
+        margin-left: -20px !important;
+    }
+
+}
+
+@media only screen and (min-width:769px) and (max-width:1025px)
+{
+    .pic{
+        margin-left: 28px !important;
+    }
+
+}
+
+
+
+/**get app**/
+
+@media only screen and (max-width:426px)
+{
+    .app_pic{
+        margin-right: 45px !important;
+        margin-bottom: 20px !important;
+    }
+
+    .name,.name_2{
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width:321px)
+{
+    .app_pic{
+        margin-left: 40px !important;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:1025px)
+{
+    .name_2{
+        margin-left: 80px !important;
+    }
+}
+
+@media only screen and (min-width:375px) and (max-width:426px)
+{
+     .app_pic{
+        margin-right: 90px !important;
+    }
+}
+
+@media only screen and (min-width:425px) and (max-width:1025px)
+{
+    .name_2{
+        margin-left: 29px !important;
+    }
+}
+
+@media only screen and (max-width:768px)
+{
+    iframe{
+        width: 230px;
+        height: 200px;
+        margin-left: -12px;
+    }
+}
+
+
+/**FOOTER**/
+
+@media only screen and (max-width:426px)
+{
+    .footer_flex{
+        margin-left: 22px !important;
+        font-size: 8px;
+    }
+
+}
+
